@@ -1,0 +1,480 @@
+/* ---------------------------- GENERICO */
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+.menu-principal{
+	padding: 2vw 10vw !important;
+}
+
+.menu-principal img{
+	width: 15em;
+}
+
+.menu-principal ul li a{
+	color: #2B6AEF !important;
+	text-align: center;
+	font-size: 20px !important;
+	font-weight: 600;
+	transition: 0.5s ease;
+}
+
+.menu-principal ul li a:hover{
+	color: #012478 !important;
+	font-weight: 800;
+}
+
+/* --------------------------- BURGER MENU */
+
+
+
+/* ---------------------------- TEXT */
+
+.color-azulclaro{
+	color: #2B6AEF;
+}
+
+.class-h2{
+	font-weight: 700 ;
+	margin-bottom: 28px;
+	color: #3ED1ED;
+}
+
+.pais-h2{
+	color: #ED1C23;
+	width: 100%;
+	border-bottom: 4px solid #ED1C23;
+}
+
+
+.class-h3{
+	color: #012478;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.class-h4{
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.class-h5{
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #2B6AEF;
+	font-weight: 600;
+}
+
+@media screen and (min-width: 1300px){
+	.class-h1{
+		font-size: 120px !important;
+	}
+
+	.class-h2{
+		font-size: 40px !important;;
+		margin-bottom: 14px;
+	}
+
+	.class-h3{
+		font-size: 40px !important;
+		margin-bottom: 28px;
+	}
+
+
+  	p {
+		font-size: 24px;
+		margin-bottom: 36px !important;
+	}
+}
+
+@media screen and (max-width: 1300px) and (min-width: 768px){
+	.class-h1{
+		font-size: 100px !important;
+	}
+
+
+	.class-h2{
+		font-size: 35px !important;
+		margin-bottom: 24px;
+	}
+
+	.class-h3{
+		font-size: 35px !important;
+		margin-bottom: 24px;
+	}
+
+
+  	p {
+		font-size: 16px;
+		margin-bottom: 24px !important;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 375px){
+	.class-h1{
+		font-size: 80px !important;
+	}
+
+	.class-h2{
+		font-size: 30px !important;
+		margin-bottom: 20px;
+	}
+
+	.class-h3{
+		font-size: 30px !important;
+		margin-bottom: 20px;
+	}
+
+
+  	p {
+		font-size: 14px;
+		margin-bottom: 20px !important;
+	}
+}
+
+
+@media (max-width: 375px){
+	.class-h1{
+		font-size: 60px !important;
+	}
+
+	.class-h2{
+		font-size: 20px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h3{
+		font-size: 20px !important;
+		margin-bottom: 16px;
+	}
+
+
+  	p {
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+}
+
+/* ----------------------------- IMG CONTENEDORES */
+
+.bg-home{
+	padding: 0 !important;
+	background-image: url('../img/bg-montevideo.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.bg-home h1{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 10%;
+}
+
+.bg-imagen1{
+	background-image: url('../img/portfolio1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 100vh;
+}
+
+.bg-imagen3{
+	background-image: url('../img/portfolio2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 100vh;
+}
+
+.bg-mapa{
+	background-image: url('../img/mapa-muestra.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 100vh;
+}
+
+
+.banner-medio{
+	background-image: url('../img/bg-montevideo.jpg');
+	background-color: rgba(0,0,0,0.5); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* ----------------------------- FONDO COLORES CONTENEDORES */
+.bg-color-azul{
+	background-color: #012478;
+	color: white;
+}
+
+.bg-color-azulclaro{
+	background-color: #2B6AEF;
+	color: white;
+}
+
+.bg-color-celeste{
+	background-color: #3ED1ED;
+	color: white;
+}
+
+.bg-color-celeste h2{
+	color: #2B6AEF;
+}
+
+.bg-grisclaro{
+	background-color: #F4F4F4;
+}
+
+/* ----------------------------- TAMAÑO CONTENEDORES */
+
+.cont-ancho{
+	padding: 5vw 10vw !important;
+}
+
+/* ----------------------------- IMG PROCESO */
+.c-proceso img{
+	width: 80%;	
+}
+
+
+/* ----------------------------- LISTA */
+
+ul{
+	list-style: none;
+}
+
+
+/* ----------------------------- BOTON */
+
+.button{
+	width: 150px;
+	padding: 10px 20px;
+	background-color: #ED1C23;
+	border: 3px solid white;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 20px;
+	transition: 0.5s ease;
+}
+
+.button a{
+	color: white;
+}
+
+.button a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover{
+	width: 150px;
+	padding: 10px 20px;
+	background-color: #012478;
+	border: 3px solid #FFF;
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+/* ----------------------------- FORM */
+
+
+form{
+	width: 100%;
+}
+
+input, textarea{
+	border: 3px solid transparent;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255, 0.7);
+	color: black;
+}
+
+textarea{
+	height: 200px;
+	resize: none;
+}
+
+input:focus, textarea:focus {
+	border: 3px solid white;
+    outline: none;
+}
+
+
+/* ----------------------------- SLIDESHOW BANNER MEDIO */
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  height: 300px;
+  position: relative;
+  margin: auto;
+  position: relative;
+}
+
+.info-slider{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg1{
+  background-image: url('../img/portfolio1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.bg2{
+  background-image: url('../img/portfolio2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+
+.bg3{
+  background-image: url('../img/portfolio3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8s;
+  animation-name: fade;
+  animation-duration: 8s;
+}
+ 
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* ----------------------------- TABLA */
+
+.btn-dropdown{
+    border: 2px solid #ED1C23;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 10px;
+    color: #012478;
+    outline: none;
+    background-color: white;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: auto !important;
+    margin-right: 10px; 
+    outline: none;
+}
+
+.table{
+	background-color: white;
+	box-shadow: 0.5px .5px 5px #9B9B9B;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ED1C23 !important;
+}
+
+.table td, .table th {
+    border-top: none !important;
+    border-right: 1px solid #9B9B9B;
+}
+
+.first-cl-border{
+	border-right: 2px solid #ED1C23 !important;
+}
+
+/* ----------------------------- FOOTER */
+
+
+footer{
+	background-image: url('../img/bg-montevideo.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	padding: 5vw 10vw !important;
+	position: relative;
+}
+
+footer h2{
+	color: #012478 !important;
+}
+
+.social-media img{
+	width: 45px;
+}
+
+.bg-opacidad{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.3);
+	height: 100%;
+	width: 100%;
+}
